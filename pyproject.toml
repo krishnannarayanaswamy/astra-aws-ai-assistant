@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "astra-aws-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Krishnan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+ragstack-ai = "^0.10.0"
+langserve = {extras = ["server"], version = "^0.0.39"}
+fastapi = "^0.103.1"
+pydantic = "1.10"
+uvicorn = "^0.23.2"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+voyageai = "^0.1.4"
+anthropic = "^0.10.0"
+pillow = "^10.2.0"
+tiktoken = "^0.5.2"
+fireworks-ai = "^0.11.2"
+cohere = "4.45"
+boto3 = "^1.34.66"
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
