@@ -1,7 +1,11 @@
-# 🦜️🔗 Chat LangChain
+# DataStax Astra AWS LangChain Assistant
 
 This repo is an implementation of a locally hosted chatbot specifically focused on question answering over the [LangChain documentation](https://python.langchain.com/).
 Built with [LangChain](https://github.com/langchain-ai/langchain/), [FastAPI](https://fastapi.tiangolo.com/), [Next.js](https://nextjs.org), [Amazon Bedrock](https://aws.amazon.com/bedrock/) and [DataStax Astra as Vector Store](https://astra.datastax.com).
+
+
+![image](https://github.com/krishnannarayanaswamy/astra-aws-ai-assistant/assets/97494161/a1c0ffa3-a72f-4c46-a25b-686ff55b5c09)
+
 
 The app leverages LangChain's streaming support and async API to update the page in real time for multiple users.
 
