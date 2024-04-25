@@ -40,7 +40,7 @@ vstore = AstraDBVectorStore(
 #    is_separator_regex = False,
 #)
 
-directory = '../frontend/public/captions'
+directory = 'captions'
 ids = []
 llmtexts = []
 book = []
